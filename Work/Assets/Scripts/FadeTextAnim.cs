@@ -22,7 +22,7 @@ public class FadeTextAnim : DotTweenAnim
             Fade(sequence, 1f, 0f, duraction);
         }
     }
-    void Fade(Sequence sequence, float startOpacity,float finalOpacity,float duraction)
+    private void Fade(Sequence sequence, float startOpacity,float finalOpacity,float duraction)
     {
         sequence.Append(_text.DOFade(startOpacity, 0.01f));
         sequence.Append(_text.DOFade(finalOpacity, duraction));

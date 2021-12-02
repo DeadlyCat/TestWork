@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class DispalyQuestionText : MonoBehaviour
 {
-    [SerializeField] Text _text;
+    [SerializeField] private Text _text;
 
     public void SetupText(string setupText)
     {

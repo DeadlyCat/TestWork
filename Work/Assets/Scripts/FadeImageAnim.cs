@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class FadeImageAnim : DotTweenAnim
 {
-    [SerializeField] Image _image;
+    [SerializeField] private Image _image;
     [SerializeField] private float _startOpacity;
     [SerializeField] private float _finalOpacity;
     public override void Animation(Sequence sequence, float duraction)

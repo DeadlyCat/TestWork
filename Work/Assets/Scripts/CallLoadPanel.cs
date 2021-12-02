@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class CallLoadPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _loadPanel;
-    void Start()
+    private void Start()
     {
         _loadPanel.SetActive(false);
     }

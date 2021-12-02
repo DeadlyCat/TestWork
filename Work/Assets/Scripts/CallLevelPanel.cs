@@ -3,7 +3,7 @@
 public class CallLevelPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _finalPanel;
-    void Start()
+    private void Start()
     {
         _finalPanel.SetActive(false);
     }

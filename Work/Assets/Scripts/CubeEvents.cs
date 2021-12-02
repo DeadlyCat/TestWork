@@ -8,7 +8,7 @@ public class CubeEvents : MonoBehaviour, IPointerClickHandler
     [SerializeField] private CubeData _cube;
     [SerializeField] private VerificatorAnswer _verificatorAnswer;
     [SerializeField] private ActiveLevel _activeLevel;
-    void Start()
+    private void Start()
     {
         _cube = GetComponent<Cube>().CubeData;
     }

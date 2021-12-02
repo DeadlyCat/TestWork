@@ -12,7 +12,7 @@ public class SceneLoader : MonoBehaviour
         callLoadPanel.SceneLoad();
         StartCoroutine(LoadScene());
     }
-    IEnumerator LoadScene()
+    private IEnumerator LoadScene()
     {
          AsyncOperation _load = SceneManager.LoadSceneAsync(0);
         callLoadPanel.SceneLoad();
